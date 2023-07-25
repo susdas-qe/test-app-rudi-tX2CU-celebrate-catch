@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-a8mz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/susdas_quay_org/build-e2e-ishn-tenant/test-app-rudi/nodejs-no-dockerfile-a8mz@sha256:207174da06fd8d4b865b245aaf80d49a552516056565e8855451ce85f9c4ea99
         name: my-nodejs
         ports:
         - containerPort: 3001
