@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-no-dockerfile-a8mz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-ishn-tenant/test-app-rudi/nodejs-no-dockerfile-a8mz@sha256:207174da06fd8d4b865b245aaf80d49a552516056565e8855451ce85f9c4ea99
+        name: my-nodejs
+        resources: {}
+status: {}
