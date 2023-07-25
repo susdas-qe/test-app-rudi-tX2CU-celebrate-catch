@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-guuw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/build-e2e-ishn-tenant/test-app-rudi/devfile-sample-python-basic-guuw@sha256:a08d2f870ccb2af87b2edbf0310abfa1e01a20576d4542d7d57f98533dbabea4
+        name: my-python
+        resources: {}
+status: {}
